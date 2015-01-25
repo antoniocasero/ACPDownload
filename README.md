@@ -52,7 +52,7 @@ To define your own images, create your own class that conforms the protocol `ACP
 In the code you inject this object using the method -setStatusImages into the view.
 
 ```
-ACPStaticImagesAlternative * myOwnImages = [[ACPStaticImagesAlternative alloc] initWithBounds:self.bounds andColor:cell.tintColor]];
+ACPStaticImagesAlternative * myOwnImages = [ACPStaticImagesAlternative new];
 [self.downloadIndicator setStatusImages:myOwnImages];
 ```
 
