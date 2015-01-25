@@ -25,7 +25,7 @@
 {
     self = [super init];
     if (self) {
-        self.progress =0.f;
+        _progress =0.f;
     }
     return self;
 }
