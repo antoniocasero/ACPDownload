@@ -30,27 +30,35 @@ Set your view as `ACPDownloadView`, in the storyboard or programatically.
 ![ScreenShot](http://antoniocasero.github.io/ACPDownload/screenshots/acpdownload-screenshot-2.png)
 
 This method will define the behaviour of the view. The change of the states is manually defined.
+
 ```- (void)setIndicatorStatus:(ACPDownloadStatus)newStatus;```
 
-* `ACPDownloadStatusNone` -> The initial state. 
-* `ACPDownloadStatusRunning` -> When the process is running, the view imitates a progress indicator, expecting a float value to be represented.
-* `ACPDownloadStatusIndeterminate` -> Indeterminate state, when your process is waiting for an action.
-* `ACPDownloadStatusCompleted` -> The process has finished correctly. 
+States:
+
+* `ACPDownloadStatusNone`: The initial state. 
+* `ACPDownloadStatusRunning`: When the process is running, the view present a progress indicator.
+* `ACPDownloadStatusIndeterminate`: Indeterminate state, when your process is waiting for an action.
+* `ACPDownloadStatusCompleted`: The process has finished correctly. 
 
 
 This method defines the progress of your process.
+
 ```- (void)setProgress:(float)progress animated:(BOOL)animated ```
 
 Defines the behaviour when the user tap over it. (The implementation is optional).
+
 ```- (void)setActionForTap:(ACPViewTappedBlock)blockAction;```
 
 Replaces the default animation for the indeterminate state.
+
 ```- (void)setIndeterminateLayer:(id<ACPLayerProtocol>)layer;```
 
 Replaces the default animation for the running state.
+
 ```- (void)setProgressLayer:(id<ACPLayerProtocol>)layer;```
 
 Replaces the default images for each state.
+
 ```- (void)setImages:(id<ACPStaticImagesProtocol>)images;```
 
 ###How to customize
