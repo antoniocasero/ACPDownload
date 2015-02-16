@@ -1,6 +1,6 @@
 # Purpose
 
-ACPDownload provides an indicator view about your download process. This project defines 4 states: initial, indeterminate, running and finished. The images are defined programatically so you dont need to worry about the resolution in the devices. It also allow to be customized with your own needs.
+ACPDownload provides a view indicator of your download process. This project defines 4 states: initial, indeterminate, running and finished. The images are defined programatically so you dont need to worry about the resolution in the devices. It also allow to be customized with your own needs.
 </br></br>
 
 ![Opening Drawer Animation](http://antoniocasero.github.io/ACPDownload/screenshots/acpdownload-gif.gif "Sample Project")
