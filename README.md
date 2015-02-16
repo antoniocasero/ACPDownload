@@ -49,7 +49,7 @@ This method defines the progress of your process.
 - (void)setProgress:(float)progress animated:(BOOL)animated; 
 ```
 
-Defines the behaviour when the user tap over it. (The implementation is optional).
+Defines the behaviour when the user tap it. (The implementation is optional).
 
 ```
 - (void)setActionForTap:(ACPViewTappedBlock)blockAction;
@@ -111,7 +111,7 @@ MMMaterialDesignSpinner</a>  for the inspiration.
 
 ##Contributing
 
-Any contribution is welcome, just need to create a pull request with your own images or your own animations!
+Any contribution is welcome, just need to create a pull request with your custom images or your own animations!
 
 
 ## Compatibility
