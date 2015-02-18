@@ -9,9 +9,9 @@ ACPDownload provides a view indicator of your download process. This project def
 ## Installation
 
 ### From CocoaPods
-
+```Ruby
 pod 'ACPDownload', '~> 1.0.0'
-
+```
 ### From source
 
 Clone the repository
@@ -31,7 +31,7 @@ Set your view as `ACPDownloadView`, in the storyboard or programatically.
 
 This method will define the behaviour of the view. The change of the states is manually defined.
 
-```
+```objective-c
 - (void)setIndicatorStatus:(ACPDownloadStatus)newStatus;
 ```
 
@@ -45,31 +45,31 @@ States:
 
 This method defines the progress of your process.
 
-```
+```objective-c
 - (void)setProgress:(float)progress animated:(BOOL)animated; 
 ```
 
 Defines the behaviour when the user tap it. (The implementation is optional).
 
-```
+```objective-c
 - (void)setActionForTap:(ACPViewTappedBlock)blockAction;
 ```
 
 Replaces the default animation for the indeterminate state.
 
-```
+```objective-c
 - (void)setIndeterminateLayer:(id<ACPLayerProtocol>)layer;
 ```
 
 Replaces the default animation for the running state.
 
-```
+```objective-c
 - (void)setProgressLayer:(id<ACPLayerProtocol>)layer;
 ```
 
 Replaces the default images for each state.
 
-```
+```objective-c
 - (void)setImages:(id<ACPStaticImagesProtocol>)images;
 ```
 
@@ -84,7 +84,7 @@ All the images has been created using Core Graphics, they will adapt to any reso
 To define your own images, create your own class that conforms the protocol `ACPStaticImagesProtocol` where you define the images for each state.
 In the code you inject this object using the method -setStatusImages into the view.
 
-```
+```objective-c
 ACPStaticImagesAlternative * myOwnImages = [ACPStaticImagesAlternative new];
 [self.downloadIndicator setImages:myOwnImages];
 ```
@@ -96,7 +96,7 @@ In order to define your own animations (only for the states running and indeterm
 
 For example to use your own animation for the indeterminate state, you inject an instances of your animation class using -setIndeterminateLayer to replace the default animation. 
 
-```
+```objective-c
 ACPIndeterminateGoogleLayer * myAnimation = [ACPIndeterminateGoogleLayer new];
 [layer updateColor:[UIColor blueColor]]; 
 [self.downloadView setIndeterminateLayer:myAnimation];
