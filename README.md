@@ -10,7 +10,7 @@ ACPDownload provides a view indicator of your download process. This project def
 
 ### From CocoaPods
 ```Ruby
-pod 'ACPDownload', '~> 1.1'
+pod 'ACPDownload', '~> 1.1.0'
 ```
 ### From source
 
