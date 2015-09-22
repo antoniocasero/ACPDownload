@@ -14,11 +14,11 @@
 
 @interface ACPDownloadView()
 
-@property (nonatomic, readwrite, assign) ACPDownloadStatus currentStatus;
+@property (nonatomic, readwrite) ACPDownloadStatus currentStatus;
 @property (nonatomic, copy) ACPViewTappedBlock viewTappedBlock;
-@property (nonatomic, strong) id<ACPStaticImagesProtocol> staticImages;
-@property (nonatomic, strong) id<ACPLayerProtocol> indeterminateShapelayer;
-@property (nonatomic, strong) id<ACPLayerProtocol> progressShapelayer;
+@property (nonatomic) id<ACPStaticImagesProtocol> staticImages;
+@property (nonatomic) id<ACPLayerProtocol> indeterminateShapelayer;
+@property (nonatomic) id<ACPLayerProtocol> progressShapelayer;
 
 
 @end

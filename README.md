@@ -10,7 +10,7 @@ ACPDownload provides a view indicator of your download process. This project def
 
 ### From CocoaPods
 ```Ruby
-pod 'ACPDownload', '~> 1.0.0'
+pod 'ACPDownload', '~> 1.1'
 ```
 ### From source
 
@@ -117,10 +117,10 @@ Any contribution is welcome, just need to create a pull request with your custom
 ## Compatibility
 
 - Supports ARC. 
-- Compatible with iOS7 and iOS8.
+- Compatible with iOS7, iOS8 and iOS9.
 
 ## Release Notes
-
+- v1.1 IB_DESIGNABLE Added. Podfile support iOS7.0
 - v1.0 Initial release
 
 ## License

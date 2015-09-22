@@ -28,9 +28,10 @@ typedef void (^ACPViewTappedBlock)(ACPDownloadView * downloadView, ACPDownloadSt
  
  @see ACPDownloadConstants;
  */
+IB_DESIGNABLE
 @interface ACPDownloadView : UIView
 
-@property (nonatomic, readonly, assign) ACPDownloadStatus currentStatus;
+@property (nonatomic, readonly) ACPDownloadStatus currentStatus;
 
 /**
  *  This method defines the state of the download indicator.
