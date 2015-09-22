@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ACPDownload'
-  s.version      = '1.1'
+  s.version      = '1.1.0'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/antoniocasero/ACPDownload'
   s.authors      =  {'Antonio Casero' => 'anto.casero@gmail.com'}
