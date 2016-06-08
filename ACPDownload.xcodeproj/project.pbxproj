@@ -23,9 +23,9 @@
 		45D968351A7507AA0060B654 /* ACPProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682B1A7507AA0060B654 /* ACPProgressLayer.m */; };
 		45D968361A7507AA0060B654 /* ACPStaticImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682D1A7507AA0060B654 /* ACPStaticImages.m */; };
 		45D968371A7507AA0060B654 /* ACPStaticImagesAlternative.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682F1A7507AA0060B654 /* ACPStaticImagesAlternative.m */; };
-		AE25CDD81D0822E5009D121C /* ACPDownload-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AE25CDD71D0822E5009D121C /* ACPDownload-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE25CDDC1D0822E5009D121C /* ACPDownloadiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE25CDD51D0822E5009D121C /* ACPDownloadiOS.framework */; };
-		AE25CDDD1D0822E5009D121C /* ACPDownloadiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE25CDD51D0822E5009D121C /* ACPDownloadiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE25CDD81D0822E5009D121C /* ACPDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = AE25CDD71D0822E5009D121C /* ACPDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE25CDDC1D0822E5009D121C /* ACPDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE25CDD51D0822E5009D121C /* ACPDownload.framework */; };
+		AE25CDDD1D0822E5009D121C /* ACPDownload.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE25CDD51D0822E5009D121C /* ACPDownload.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE25CDE21D0822F0009D121C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CBADEA1A619FDA0094E920 /* CoreGraphics.framework */; };
 		AE25CDE71D082306009D121C /* ACPDownloadConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D968221A7507AA0060B654 /* ACPDownloadConstants.m */; };
 		AE25CDE81D082306009D121C /* ACPDownloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D968241A7507AA0060B654 /* ACPDownloadView.m */; };
@@ -61,7 +61,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AE25CDDD1D0822E5009D121C /* ACPDownloadiOS.framework in Embed Frameworks */,
+				AE25CDDD1D0822E5009D121C /* ACPDownload.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,8 +99,8 @@
 		45D9682E1A7507AA0060B654 /* ACPStaticImagesAlternative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPStaticImagesAlternative.h; sourceTree = "<group>"; };
 		45D9682F1A7507AA0060B654 /* ACPStaticImagesAlternative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPStaticImagesAlternative.m; sourceTree = "<group>"; };
 		45D968301A7507AA0060B654 /* ACPStaticImagesProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPStaticImagesProtocol.h; sourceTree = "<group>"; };
-		AE25CDD51D0822E5009D121C /* ACPDownloadiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACPDownloadiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE25CDD71D0822E5009D121C /* ACPDownload-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACPDownload-iOS.h"; sourceTree = "<group>"; };
+		AE25CDD51D0822E5009D121C /* ACPDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACPDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE25CDD71D0822E5009D121C /* ACPDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACPDownload.h; sourceTree = "<group>"; };
 		AE25CDD91D0822E5009D121C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE25CDDC1D0822E5009D121C /* ACPDownloadiOS.framework in Frameworks */,
+				AE25CDDC1D0822E5009D121C /* ACPDownload.framework in Frameworks */,
 				45CBADEB1A619FDA0094E920 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				45CBADBD1A619C280094E920 /* ACPDownload.app */,
-				AE25CDD51D0822E5009D121C /* ACPDownloadiOS.framework */,
+				AE25CDD51D0822E5009D121C /* ACPDownload.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 		AE25CDD61D0822E5009D121C /* ACPDownloadiOS */ = {
 			isa = PBXGroup;
 			children = (
-				AE25CDD71D0822E5009D121C /* ACPDownload-iOS.h */,
+				AE25CDD71D0822E5009D121C /* ACPDownload.h */,
 				AE25CDD91D0822E5009D121C /* Info.plist */,
 			);
 			name = ACPDownloadiOS;
@@ -244,7 +244,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE25CDD81D0822E5009D121C /* ACPDownload-iOS.h in Headers */,
+				AE25CDD81D0822E5009D121C /* ACPDownload.h in Headers */,
 				AE25CDEF1D08253D009D121C /* ACPStaticImages.h in Headers */,
 				AE25CDF01D08253D009D121C /* ACPStaticImagesAlternative.h in Headers */,
 				AE25CDF11D08253D009D121C /* ACPIndeterminateGoogleLayer.h in Headers */,
@@ -278,9 +278,9 @@
 			productReference = 45CBADBD1A619C280094E920 /* ACPDownload.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AE25CDD41D0822E5009D121C /* ACPDownloadiOS */ = {
+		AE25CDD41D0822E5009D121C /* ACPDownload iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE25CDE01D0822E5009D121C /* Build configuration list for PBXNativeTarget "ACPDownloadiOS" */;
+			buildConfigurationList = AE25CDE01D0822E5009D121C /* Build configuration list for PBXNativeTarget "ACPDownload iOS" */;
 			buildPhases = (
 				AE25CDD01D0822E5009D121C /* Sources */,
 				AE25CDD11D0822E5009D121C /* Frameworks */,
@@ -291,9 +291,9 @@
 			);
 			dependencies = (
 			);
-			name = ACPDownloadiOS;
+			name = "ACPDownload iOS";
 			productName = "ACPDownload iOS";
-			productReference = AE25CDD51D0822E5009D121C /* ACPDownloadiOS.framework */;
+			productReference = AE25CDD51D0822E5009D121C /* ACPDownload.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +329,7 @@
 			projectRoot = "";
 			targets = (
 				45CBADBC1A619C280094E920 /* ACPDownload */,
-				AE25CDD41D0822E5009D121C /* ACPDownloadiOS */,
+				AE25CDD41D0822E5009D121C /* ACPDownload iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -393,7 +393,7 @@
 /* Begin PBXTargetDependency section */
 		AE25CDDB1D0822E5009D121C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE25CDD41D0822E5009D121C /* ACPDownloadiOS */;
+			target = AE25CDD41D0822E5009D121C /* ACPDownload iOS */;
 			targetProxy = AE25CDDA1D0822E5009D121C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -541,7 +541,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ACP.ACPDownload-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ACPDownload;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -567,7 +567,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ACP.ACPDownload-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ACPDownload;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -595,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE25CDE01D0822E5009D121C /* Build configuration list for PBXNativeTarget "ACPDownloadiOS" */ = {
+		AE25CDE01D0822E5009D121C /* Build configuration list for PBXNativeTarget "ACPDownload iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE25CDDE1D0822E5009D121C /* Debug */,
