@@ -23,7 +23,50 @@
 		45D968351A7507AA0060B654 /* ACPProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682B1A7507AA0060B654 /* ACPProgressLayer.m */; };
 		45D968361A7507AA0060B654 /* ACPStaticImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682D1A7507AA0060B654 /* ACPStaticImages.m */; };
 		45D968371A7507AA0060B654 /* ACPStaticImagesAlternative.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682F1A7507AA0060B654 /* ACPStaticImagesAlternative.m */; };
+		AE25CDD81D0822E5009D121C /* ACPDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = AE25CDD71D0822E5009D121C /* ACPDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE25CDDC1D0822E5009D121C /* ACPDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE25CDD51D0822E5009D121C /* ACPDownload.framework */; };
+		AE25CDDD1D0822E5009D121C /* ACPDownload.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE25CDD51D0822E5009D121C /* ACPDownload.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE25CDE21D0822F0009D121C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CBADEA1A619FDA0094E920 /* CoreGraphics.framework */; };
+		AE25CDE71D082306009D121C /* ACPDownloadConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D968221A7507AA0060B654 /* ACPDownloadConstants.m */; };
+		AE25CDE81D082306009D121C /* ACPDownloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D968241A7507AA0060B654 /* ACPDownloadView.m */; };
+		AE25CDE91D08230C009D121C /* ACPIndeterminateGoogleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D968261A7507AA0060B654 /* ACPIndeterminateGoogleLayer.m */; };
+		AE25CDEA1D08230C009D121C /* ACPIndeterminateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D968281A7507AA0060B654 /* ACPIndeterminateLayer.m */; };
+		AE25CDEB1D08230C009D121C /* ACPProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682B1A7507AA0060B654 /* ACPProgressLayer.m */; };
+		AE25CDEC1D082310009D121C /* ACPStaticImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682D1A7507AA0060B654 /* ACPStaticImages.m */; };
+		AE25CDED1D082310009D121C /* ACPStaticImagesAlternative.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682F1A7507AA0060B654 /* ACPStaticImagesAlternative.m */; };
+		AE25CDEF1D08253D009D121C /* ACPStaticImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682C1A7507AA0060B654 /* ACPStaticImages.h */; };
+		AE25CDF01D08253D009D121C /* ACPStaticImagesAlternative.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682E1A7507AA0060B654 /* ACPStaticImagesAlternative.h */; };
+		AE25CDF11D08253D009D121C /* ACPIndeterminateGoogleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968251A7507AA0060B654 /* ACPIndeterminateGoogleLayer.h */; };
+		AE25CDF21D08253D009D121C /* ACPIndeterminateLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968271A7507AA0060B654 /* ACPIndeterminateLayer.h */; };
+		AE25CDF31D08253D009D121C /* ACPProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682A1A7507AA0060B654 /* ACPProgressLayer.h */; };
+		AE25CDF41D08253D009D121C /* ACPLayerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968291A7507AA0060B654 /* ACPLayerProtocol.h */; };
+		AE25CDF51D08253D009D121C /* ACPDownloadConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968211A7507AA0060B654 /* ACPDownloadConstants.h */; };
+		AE25CDF61D08253D009D121C /* ACPDownloadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968231A7507AA0060B654 /* ACPDownloadView.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE25CDDA1D0822E5009D121C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45CBADB51A619C280094E920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE25CDD41D0822E5009D121C;
+			remoteInfo = "ACPDownload iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE25CDE11D0822E5009D121C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE25CDDD1D0822E5009D121C /* ACPDownload.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		458EE6E81A6C420200FDBE47 /* ExampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCell.h; sourceTree = "<group>"; };
@@ -56,6 +99,9 @@
 		45D9682E1A7507AA0060B654 /* ACPStaticImagesAlternative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPStaticImagesAlternative.h; sourceTree = "<group>"; };
 		45D9682F1A7507AA0060B654 /* ACPStaticImagesAlternative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPStaticImagesAlternative.m; sourceTree = "<group>"; };
 		45D968301A7507AA0060B654 /* ACPStaticImagesProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPStaticImagesProtocol.h; sourceTree = "<group>"; };
+		AE25CDD51D0822E5009D121C /* ACPDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACPDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE25CDD71D0822E5009D121C /* ACPDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACPDownload.h; sourceTree = "<group>"; };
+		AE25CDD91D0822E5009D121C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +109,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE25CDDC1D0822E5009D121C /* ACPDownload.framework in Frameworks */,
 				45CBADEB1A619FDA0094E920 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE25CDD11D0822E5009D121C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE25CDE21D0822F0009D121C /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +144,7 @@
 			children = (
 				45BDEDAC1A6DA509004CC7B2 /* README.md */,
 				45CBADBF1A619C280094E920 /* Example */,
+				AE25CDD61D0822E5009D121C /* ACPDownloadiOS */,
 				45CBADBE1A619C280094E920 /* Products */,
 				45CBADEA1A619FDA0094E920 /* CoreGraphics.framework */,
 			);
@@ -98,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				45CBADBD1A619C280094E920 /* ACPDownload.app */,
+				AE25CDD51D0822E5009D121C /* ACPDownload.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,7 +227,36 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		AE25CDD61D0822E5009D121C /* ACPDownloadiOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE25CDD71D0822E5009D121C /* ACPDownload.h */,
+				AE25CDD91D0822E5009D121C /* Info.plist */,
+			);
+			name = ACPDownloadiOS;
+			path = "ACPDownload iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE25CDD21D0822E5009D121C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE25CDD81D0822E5009D121C /* ACPDownload.h in Headers */,
+				AE25CDEF1D08253D009D121C /* ACPStaticImages.h in Headers */,
+				AE25CDF01D08253D009D121C /* ACPStaticImagesAlternative.h in Headers */,
+				AE25CDF11D08253D009D121C /* ACPIndeterminateGoogleLayer.h in Headers */,
+				AE25CDF21D08253D009D121C /* ACPIndeterminateLayer.h in Headers */,
+				AE25CDF31D08253D009D121C /* ACPProgressLayer.h in Headers */,
+				AE25CDF41D08253D009D121C /* ACPLayerProtocol.h in Headers */,
+				AE25CDF51D08253D009D121C /* ACPDownloadConstants.h in Headers */,
+				AE25CDF61D08253D009D121C /* ACPDownloadView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		45CBADBC1A619C280094E920 /* ACPDownload */ = {
@@ -180,15 +266,35 @@
 				45CBADB91A619C280094E920 /* Sources */,
 				45CBADBA1A619C280094E920 /* Frameworks */,
 				45CBADBB1A619C280094E920 /* Resources */,
+				AE25CDE11D0822E5009D121C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AE25CDDB1D0822E5009D121C /* PBXTargetDependency */,
 			);
 			name = ACPDownload;
 			productName = ACPDownload;
 			productReference = 45CBADBD1A619C280094E920 /* ACPDownload.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AE25CDD41D0822E5009D121C /* ACPDownload iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE25CDE01D0822E5009D121C /* Build configuration list for PBXNativeTarget "ACPDownload iOS" */;
+			buildPhases = (
+				AE25CDD01D0822E5009D121C /* Sources */,
+				AE25CDD11D0822E5009D121C /* Frameworks */,
+				AE25CDD21D0822E5009D121C /* Headers */,
+				AE25CDD31D0822E5009D121C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACPDownload iOS";
+			productName = "ACPDownload iOS";
+			productReference = AE25CDD51D0822E5009D121C /* ACPDownload.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,6 +307,10 @@
 				TargetAttributes = {
 					45CBADBC1A619C280094E920 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9HX8L3BY3M;
+					};
+					AE25CDD41D0822E5009D121C = {
+						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 9HX8L3BY3M;
 					};
 				};
@@ -219,6 +329,7 @@
 			projectRoot = "";
 			targets = (
 				45CBADBC1A619C280094E920 /* ACPDownload */,
+				AE25CDD41D0822E5009D121C /* ACPDownload iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +342,13 @@
 				45CBADCC1A619C280094E920 /* Main.storyboard in Resources */,
 				45CBADD11A619C280094E920 /* LaunchScreen.xib in Resources */,
 				45CBADCE1A619C280094E920 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE25CDD31D0822E5009D121C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +374,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE25CDD01D0822E5009D121C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE25CDED1D082310009D121C /* ACPStaticImagesAlternative.m in Sources */,
+				AE25CDEA1D08230C009D121C /* ACPIndeterminateLayer.m in Sources */,
+				AE25CDEB1D08230C009D121C /* ACPProgressLayer.m in Sources */,
+				AE25CDEC1D082310009D121C /* ACPStaticImages.m in Sources */,
+				AE25CDE71D082306009D121C /* ACPDownloadConstants.m in Sources */,
+				AE25CDE91D08230C009D121C /* ACPIndeterminateGoogleLayer.m in Sources */,
+				AE25CDE81D082306009D121C /* ACPDownloadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE25CDDB1D0822E5009D121C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE25CDD41D0822E5009D121C /* ACPDownload iOS */;
+			targetProxy = AE25CDDA1D0822E5009D121C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		45CBADCA1A619C280094E920 /* Main.storyboard */ = {
@@ -382,6 +522,58 @@
 			};
 			name = Release;
 		};
+		AE25CDDE1D0822E5009D121C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "ACPDownload iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACP.ACPDownload-iOS";
+				PRODUCT_NAME = ACPDownload;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE25CDDF1D0822E5009D121C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "ACPDownload iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACP.ACPDownload-iOS";
+				PRODUCT_NAME = ACPDownload;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -402,6 +594,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		AE25CDE01D0822E5009D121C /* Build configuration list for PBXNativeTarget "ACPDownload iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE25CDDE1D0822E5009D121C /* Debug */,
+				AE25CDDF1D0822E5009D121C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
