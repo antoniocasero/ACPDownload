@@ -73,7 +73,7 @@ Replaces the default images for each state.
 - (void)setImages:(id<ACPStaticImagesProtocol>)images;
 ```
 
-###How to customize
+### How to customize
 
 I decided to split up the customization into two main parts, animations and images.
 
@@ -105,11 +105,11 @@ If you don't define a color, it will use the by default the tintColor of the vie
 
 For more details on this, check the Sample Application in this repo.
 
-##Attributions
+## Attributions
 Thanks to <a href="https://github.com/misterwell/MMMaterialDesignSpinner">
 MMMaterialDesignSpinner</a>  for the inspiration.
 
-##Contributing
+## Contributing
 
 Any contribution is welcome, just need to create a pull request with your custom images or your own animations!
 
